@@ -1,7 +1,7 @@
 #Variavel para o nome da instância
 variable "enviroment" {
   type = string
-  default = ""
+  default = "?"
 }
 
 #Tipo da instância
@@ -13,5 +13,5 @@ variable "instance_type" {
 #Imagem da instância
 variable "ami_ubuntu" {
   type = string
-  default = ""
+  default = "?"
 }
