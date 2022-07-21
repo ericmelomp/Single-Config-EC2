@@ -1,4 +1,3 @@
-#Criação e configuração da instância
 resource "aws_instance" "instance" {
   count         = "?"
   ami           = var.ami_ubuntu

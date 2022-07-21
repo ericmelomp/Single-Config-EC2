@@ -1,4 +1,3 @@
-#Variavel para o nome da instância
 variable "enviroment" {
   type = string
   default = "?"
